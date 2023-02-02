@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  font-size: 50px;
+  font-family: "Rubik Vinyl", cursive;
+  padding: auto;
+}
+
+.navbar {
+  font-weight: bold;
+  color: red;
+}
+
+.navbar-brand {
+  color: red !important;
+  font-size: 40px;
+}
+
+.navbar-toggler {
+  background-color: red;
+}
+
+.nav-item:hover {
+  background-color: red;
+}
+
+.navbar .nav-link {
+  list-style: none;
+  font-size: 25px;
+}
+
+.navbar .nav-link a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 2px;
+}
+
+.mainHome {
+  background-image: url(../img/zapawall.jpg);
+  background-color: #333;
+  background-size: cover;
+  height: 40rem;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main a {
+  background-size: 40px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.call {
+  color: greenyellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: cover;
+  width: 25rem;
+}
+
+.indexh1 {
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 5px 5px 5px red;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.call p {
+  margin-bottom: 30px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+  color: black;
+}
+
+.call a {
+  background-color: black;
+  color: greenyellow;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.call a:hover {
+  background-color: red;
+  border: 2px solid;
+}
+
+.mainPages {
+  padding-bottom: 50px;
+  background-color: #333;
+  background-size: cover;
+  background-position: center center;
+}
+
+.picCont {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 18px;
+}
+
+.imgSneakers {
+  width: 23rem;
+  height: 23rem;
+}
+
+.pagesh1 {
+  font-size: 40px;
+  font-family: "Permanent Marker", cursive;
+  color: red;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 40px;
+  font-family: "Permanent Marker", cursive;
+  color: red;
+  text-align: center;
+}
+
+.card p {
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
+  color: red;
+  font-family: "Permanent Marker", cursive;
+  padding: 20px;
+}
+
+footer i {
+  font-size: 30px;
+  letter-spacing: 20px;
+  color: greenyellow;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 15px;
+}
+
+/* contact */
+.mainContact {
+  background-image: url(../img/banner.png);
+}
+
+.contForm {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: red;
+  padding: 50px;
+}
+
+.btnForm {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  color: greenyellow;
+  padding: 15px;
+  background-color: red;
+  border-color: red;
+  border-width: 3px;
+  width: 7rem;
+  height: 4rem;
+  border-style: solid;
+  border-radius: 7px;
+}/*# sourceMappingURL=styles.css.map */
