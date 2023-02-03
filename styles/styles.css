@@ -19,26 +19,21 @@ header {
   font-weight: bold;
   color: red;
 }
-
-.navbar-brand {
+.navbar .navbar-brand {
   color: red !important;
-  font-size: 40px;
+  font-size: 60px;
 }
-
-.navbar-toggler {
+.navbar .navbar-toggler {
   background-color: red;
 }
-
-.nav-item:hover {
+.navbar .nav-item:hover {
   background-color: red;
 }
-
-.navbar .nav-link {
+.navbar .navbar .nav-link {
   list-style: none;
   font-size: 25px;
 }
-
-.navbar .nav-link a {
+.navbar .navbar .nav-link a {
   text-decoration: none;
   color: whitesmoke;
   margin: 2px;
@@ -131,6 +126,27 @@ main a {
   display: flex;
   justify-content: space-around;
   border-radius: 18px;
+  transition: all 0.25s;
+}
+.picCont .card {
+  margin-bottom: 40px;
+  background-color: whitesmoke;
+}
+.picCont .card h3 {
+  font-size: 40px;
+  font-family: "Permanent Marker", cursive;
+  color: red;
+  text-align: center;
+}
+.picCont .card p {
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  text-align: center;
+}
+.picCont .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 16px red;
 }
 
 .imgSneakers {
@@ -167,15 +183,13 @@ footer {
   font-family: "Permanent Marker", cursive;
   padding: 20px;
 }
-
-footer i {
+i {
   font-size: 30px;
   letter-spacing: 20px;
   color: greenyellow;
   text-align: center;
 }
-
-footer p {
+p {
   margin-bottom: 15px;
 }
 

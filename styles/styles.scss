@@ -34,32 +34,32 @@ header{
     font-weight: bold;
     color: $color1;
     
-    }
-
-.navbar-brand{
+    .navbar-brand{
     color: $color1 !important;
-    font-size: 40px;
-}
-.navbar-toggler{
+    font-size: 60px;
+    }
+    .navbar-toggler{
     background-color: $color1;
-}
-.nav-item:hover{
+    }
+    .nav-item:hover{
     background-color: red;
 
-}
+    }  
     
 
-.navbar .nav-link{
+    .navbar .nav-link{
     list-style: none;
     font-size: 25px;
     }
 
-.navbar .nav-link a{
+    .navbar .nav-link a{
     text-decoration: none;
     color: whitesmoke;
     margin: 2px;
     
     }
+
+}
 
 .mainHome{
     
@@ -144,13 +144,32 @@ main a{
     justify-content: space-around;   
     border-radius: 18px; 
     transition: all 0.25s;
-    
+
+    .card{
+        margin-bottom: 40px;
+        background-color: whitesmoke;
+        h3{
+            font-size: 40px;
+            font-family: 'Permanent Marker', cursive;
+            color: red;
+            text-align: center;
+        }
+
+        p{
+            font-size: 20px;
+            font-family: 'Permanent Marker', cursive;
+            color: black;
+            text-align: center;
+        }
+
+    }
+    .card:hover{
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px red;
+    }
     }
 
-.picCont .card:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0 0.2);
-}    
+
 
 .imgSneakers{
     width: 23rem;
@@ -191,19 +210,19 @@ footer{
     color: red;
     font-family:'Permanent Marker', cursive;
     padding: 20px;
-    }
+    
 
-footer i{
+    i{
     font-size: 30px;
     letter-spacing: 20px;
     color: greenyellow;
     text-align: center;
     }
 
-footer p{
+    p{
     margin-bottom: 15px;
     }
-
+}
 
 /* contact */
 
