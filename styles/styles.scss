@@ -21,9 +21,9 @@ $font1: 'Rubik Vinyl', cursive;
 
 header{
     width:100%;
-    background-color: black;
-    font-size: 50px;
-    font-family: 'Rubik Vinyl', cursive;
+    background-color: $color2;
+    font-size: 30px;
+    font-family: $font1;
     padding: auto;    
     }
 
@@ -121,12 +121,15 @@ main a{
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 7px;
-    }
+}
+    
 
-.call a:hover{
+.call a a:hover{
     background-color: red;
     border: 2px solid ;
     }
+
+
 
 
 .mainPages{

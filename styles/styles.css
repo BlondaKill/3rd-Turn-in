@@ -10,7 +10,7 @@
 header {
   width: 100%;
   background-color: black;
-  font-size: 50px;
+  font-size: 30px;
   font-family: "Rubik Vinyl", cursive;
   padding: auto;
 }
@@ -109,7 +109,7 @@ main a {
   border-radius: 7px;
 }
 
-.call a:hover {
+.call a a:hover {
   background-color: red;
   border: 2px solid;
 }
@@ -183,13 +183,13 @@ footer {
   font-family: "Permanent Marker", cursive;
   padding: 20px;
 }
-i {
+footer i {
   font-size: 30px;
   letter-spacing: 20px;
   color: greenyellow;
   text-align: center;
 }
-p {
+footer p {
   margin-bottom: 15px;
 }
 
