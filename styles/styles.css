@@ -120,55 +120,50 @@ main a {
   background-size: cover;
   background-position: center center;
 }
-
-.picCont {
+.mainPages .picCont {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
   border-radius: 18px;
   transition: all 0.25s;
 }
-.picCont .card {
+.mainPages .picCont .card {
   margin-bottom: 40px;
   background-color: whitesmoke;
 }
-.picCont .card h3 {
+.mainPages .picCont .card h3 {
   font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
 }
-.picCont .card p {
+.mainPages .picCont .card p {
   font-size: 20px;
   font-family: "Permanent Marker", cursive;
   color: black;
   text-align: center;
 }
-.picCont .card:hover {
+.mainPages .picCont .card:hover {
   transform: scale(1.1);
   box-shadow: 0 12px 16px red;
 }
-
-.imgSneakers {
+.mainPages .picCont .imgSneakers {
   width: 23rem;
   height: 23rem;
 }
-
-.pagesh1 {
+.mainPages .pagesh1 {
   font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
 }
-
-.card h3 {
+.mainPages .card h3 {
   font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
 }
-
-.card p {
+.mainPages .card p {
   font-size: 20px;
   font-family: "Permanent Marker", cursive;
   color: black;

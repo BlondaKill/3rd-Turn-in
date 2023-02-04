@@ -138,7 +138,7 @@ main a{
     background-size: cover;
     background-position: center center;
     
-    }
+    
 
 
 .picCont{
@@ -151,18 +151,19 @@ main a{
     .card{
         margin-bottom: 40px;
         background-color: whitesmoke;
+
         h3{
-            font-size: 40px;
-            font-family: 'Permanent Marker', cursive;
-            color: red;
-            text-align: center;
+        font-size: 40px;
+        font-family: 'Permanent Marker', cursive;
+        color: red;
+        text-align: center;
         }
 
         p{
-            font-size: 20px;
-            font-family: 'Permanent Marker', cursive;
-            color: black;
-            text-align: center;
+        font-size: 20px;
+        font-family: 'Permanent Marker', cursive;
+        color: black;
+        text-align: center;
         }
 
     }
@@ -170,16 +171,13 @@ main a{
         transform: scale(1.1);
         box-shadow: 0 12px 16px red;
     }
-    }
-
-
-
-.imgSneakers{
+    
+    .imgSneakers{
     width: 23rem;
     height: 23rem;
-    
-    
+        
     }
+}
 
 .pagesh1{
     font-size: 40px;
@@ -202,7 +200,7 @@ main a{
     font-family: 'Permanent Marker', cursive;
     color: black;
     text-align: center;
-
+    }
 }
 
 
