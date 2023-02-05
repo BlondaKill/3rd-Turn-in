@@ -9,6 +9,7 @@ $color4: #333;
 $color5: greenyellow;
 
 $font1: 'Rubik Vinyl', cursive;
+$font2: 'Permanent Marker', cursive;
 
 
 
@@ -95,7 +96,7 @@ main a{
     animation-name: aparecer;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    }
+    
 
     @keyframes aparecer{
 0%{
@@ -106,6 +107,7 @@ main a{
     opacity: 1;
 }
     }
+}
 
 .call p{
     margin-bottom: 30px;
@@ -139,9 +141,7 @@ main a{
     background-position: center center;
     
     
-
-
-.picCont{
+    .picCont{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;   
@@ -149,24 +149,25 @@ main a{
     transition: all 0.25s;
 
     .card{
-        margin-bottom: 40px;
-        background-color: whitesmoke;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
 
-        h3{
-        font-size: 40px;
-        font-family: 'Permanent Marker', cursive;
-        color: red;
-        text-align: center;
-        }
+    h3{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+    text-align: center;
+    }
 
-        p{
-        font-size: 20px;
-        font-family: 'Permanent Marker', cursive;
-        color: black;
-        text-align: center;
-        }
+    p{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    text-align: center;
+    }
 
     }
+
     .card:hover{
         transform: scale(1.1);
         box-shadow: 0 12px 16px red;
@@ -177,8 +178,8 @@ main a{
     height: 23rem;
         
     }
-}
 
+}
 .pagesh1{
     font-size: 40px;
     font-family: 'Permanent Marker', cursive;
@@ -191,8 +192,6 @@ main a{
     font-family: 'Permanent Marker', cursive;
     color: red;
     text-align: center;
-
-
 }
 
 .card p{
@@ -202,6 +201,7 @@ main a{
     text-align: center;
     }
 }
+
 
 
 footer{
@@ -234,7 +234,7 @@ footer{
 .contForm{
     display: flex;
     justify-content: center;
-}
+
 
 form{
     width: 100%;
@@ -264,4 +264,5 @@ form{
     height: 4rem;
     border-style: solid;
     border-radius: 7px;
-}   
+    }   
+}
