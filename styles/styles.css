@@ -183,6 +183,9 @@ footer i {
   color: greenyellow;
   text-align: center;
 }
+footer i .a:hover {
+  color: red;
+}
 footer p {
   margin-bottom: 15px;
 }
