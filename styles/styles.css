@@ -183,7 +183,7 @@ footer i {
   color: greenyellow;
   text-align: center;
 }
-footer i .a:hover {
+footer i:hover {
   color: red;
 }
 footer p {
@@ -191,6 +191,7 @@ footer p {
 }
 
 /* contact */
+
 .mainContact {
   background-image: url(../img/banner.png);
 }
