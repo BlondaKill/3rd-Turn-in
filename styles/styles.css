@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -20,25 +19,20 @@ header {
   font-weight: bold;
   color: red;
 }
-
 .navbar .navbar-brand {
   color: red !important;
   font-size: 60px;
 }
-
 .navbar .navbar-toggler {
   background-color: red;
 }
-
 .navbar .nav-item:hover {
   background-color: red;
 }
-
 .navbar .navbar .nav-link {
   list-style: none;
   font-size: 25px;
 }
-
 .navbar .navbar .nav-link a {
   text-decoration: none;
   color: whitesmoke;
@@ -73,31 +67,15 @@ main a {
   font-size: 50px;
   font-family: "Permanent Marker", cursive;
   text-shadow: 5px 5px 5px red;
-  -webkit-animation-duration: 2s;
   animation-duration: 2s;
-  -webkit-animation-name: aparecer;
   animation-name: aparecer;
-  -webkit-animation-direction: alternate;
   animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-
-@-webkit-keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes aparecer {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -123,64 +101,65 @@ main a {
   border: 2px solid;
 }
 
+.call a:active {
+  background-color: rgb(174, 201, 133);
+}
+
 .mainPages {
   padding-bottom: 50px;
   background-color: #333;
   background-size: cover;
   background-position: center center;
 }
-
 .mainPages .picCont {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
   border-radius: 18px;
   transition: all 0.25s;
 }
-
+@media screen and (max-width: 992px) {
+  .mainPages .picCont .picCont {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainPages .picCont .picCont {
+    grid-template-columns: 100%;
+  }
+}
 .mainPages .picCont .card {
-  margin-bottom: 40px;
+  grid-gap: 10px;
   background-color: whitesmoke;
 }
-
 .mainPages .picCont .card h3 {
   font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
 }
-
 .mainPages .picCont .card p {
   font-size: 20px;
   font-family: "Permanent Marker", cursive;
   color: black;
   text-align: center;
 }
-
 .mainPages .picCont .card:hover {
   transform: scale(1.1);
   box-shadow: 0 12px 16px red;
 }
-
-.mainPages .picCont .imgSneakers {
-  width: 23rem;
-  height: 23rem;
-}
-
 .mainPages .pagesh1 {
   font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
 }
-
 .mainPages .card h3 {
   font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
 }
-
 .mainPages .card p {
   font-size: 20px;
   font-family: "Permanent Marker", cursive;
@@ -196,18 +175,15 @@ footer {
   font-family: "Permanent Marker", cursive;
   padding: 20px;
 }
-
 footer i {
   font-size: 30px;
   letter-spacing: 20px;
   color: greenyellow;
   text-align: center;
 }
-
 footer i:hover {
   color: red;
 }
-
 footer p {
   margin-bottom: 15px;
 }
@@ -221,7 +197,6 @@ footer p {
   display: flex;
   justify-content: center;
 }
-
 .contForm form {
   width: 100%;
   height: 100%;
@@ -233,7 +208,6 @@ footer p {
   color: red;
   padding: 50px;
 }
-
 .contForm .btnForm {
   text-decoration: none;
   font-weight: 600;
@@ -249,6 +223,4 @@ footer p {
   height: 4rem;
   border-style: solid;
   border-radius: 7px;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
