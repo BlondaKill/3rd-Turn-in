@@ -119,12 +119,12 @@ main a {
   transition: all 0.25s;
 }
 @media screen and (max-width: 992px) {
-  .mainPages .picCont .picCont {
+  .mainPages .picCont {
     grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 600px) {
-  .mainPages .picCont .picCont {
+  .mainPages .picCont {
     grid-template-columns: 100%;
   }
 }
