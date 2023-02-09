@@ -8,10 +8,16 @@ $color3: whitesmoke;
 $color4: #333;
 $color5: greenyellow;
 
+
 $font1: 'Rubik Vinyl',
 cursive;
 $font2: 'Permanent Marker',
 cursive;
+$font3: Verdana,
+Geneva,
+Tahoma,
+sans-serif;
+
 
 
 
@@ -83,7 +89,7 @@ main a {
 
 .call {
     color: $color5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $font3;
     text-align: cover;
     width: 25rem;
 }
@@ -132,10 +138,6 @@ main a {
     border: 2px solid;
 }
 
-.call a:active {
-    background-color: rgb(174, 201, 133);
-}
-
 
 .mainPages {
     padding-bottom: 50px;
@@ -166,6 +168,11 @@ main a {
         .card {
             grid-gap: 10px;
             background-color: $color3;
+
+            .imgSneakers {
+                width: 23rem;
+                height: 23rem;
+            }
 
             h3 {
                 font-size: 40px;

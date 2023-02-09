@@ -101,10 +101,6 @@ main a {
   border: 2px solid;
 }
 
-.call a:active {
-  background-color: rgb(174, 201, 133);
-}
-
 .mainPages {
   padding-bottom: 50px;
   background-color: #333;
@@ -119,18 +115,22 @@ main a {
   transition: all 0.25s;
 }
 @media screen and (max-width: 992px) {
-  .mainPages .picCont {
+  .mainPages .picCont .picCont {
     grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 600px) {
-  .mainPages .picCont {
+  .mainPages .picCont .picCont {
     grid-template-columns: 100%;
   }
 }
 .mainPages .picCont .card {
   grid-gap: 10px;
   background-color: whitesmoke;
+}
+.mainPages .picCont .card .imgSneakers {
+  width: 23rem;
+  height: 23rem;
 }
 .mainPages .picCont .card h3 {
   font-size: 40px;
