@@ -12,14 +12,6 @@ $color3: whitesmoke;
 $color4: #333;
 $color5: greenyellow;
 
-// Bucle each
-
-$color6: red,
-black,
-purple,
-orange,
-greenyellow;
-
 
 // Fonts
 
@@ -32,11 +24,15 @@ Geneva,
 Tahoma,
 sans-serif;
 
-// Operadores
+// Operadores 
 
 $var1:60px;
 $var2:30px;
 $var3:20px;
+
+
+/* Mi constante */
+// $color2 == black
 
 
 
@@ -173,74 +169,75 @@ main a {
         transition: all 0.25s;
 
         @media screen and (max-width: 320px) {
-            .picCont {
-                grid-template-columns: 1fr 1fr;
-            }
+
+            grid-template-columns: 1fr 1fr;
         }
+
 
         @media screen and (max-width: 576px) {
-            .picCont {
-                grid-template-columns: 100%;
-            }
+
+            grid-template-columns: 100%;
+        }
+    }
+
+
+    .card {
+        grid-gap: 10px;
+        background-color: $color3;
+
+        .imgSneakers {
+            width: 100%;
+            height: 25rem;
         }
 
-        .card {
-            grid-gap: 10px;
-            background-color: $color3;
-
-            .imgSneakers {
-                width: 100%;
-                height: 25rem;
-            }
-
-            h3 {
-                font-size: 40px;
-                font-family: $font2;
-                color: $color1;
-                text-align: center;
-            }
-
-            p {
-                font-size: 20px;
-                font-family: $font2;
-                color: $color2;
-                text-align: center;
-            }
-
+        h3 {
+            font-size: 40px;
+            font-family: $font2;
+            color: $color1;
+            text-align: center;
         }
 
-        .card:hover {
-            transform: scale(1.1);
-            box-shadow: 0 12px 16px $color1;
+        p {
+            font-size: 20px;
+            font-family: $font2;
+            color: $color2;
+            text-align: center;
         }
 
-
     }
 
-    .pagesh1 {
-        font-size: 40px;
-        font-family: $font2;
-        color: $color1;
-        text-align: center;
+    .card:hover {
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px $color1;
     }
 
-    .card h3 {
-        font-size: 40px;
-        font-family: $font2;
-        color: $color1;
-        text-align: center;
-    }
 
-    .card p {
-        font-size: 20px;
-        font-family: $font2;
-        color: $color2;
-        text-align: center;
-    }
 }
 
-/* Mi constante */
+.pagesh1 {
+    font-size: 40px;
+    font-family: $font2;
+    color: $color1;
+    text-align: center;
+}
 
+.card h3 {
+    font-size: 40px;
+    font-family: $font2;
+    color: $color1;
+    text-align: center;
+}
+
+.card p {
+    font-size: 20px;
+    font-family: $font2;
+    color: $color2;
+    text-align: center;
+}
+
+
+
+/* Mi constante */
 /* $color2 == black */
 
 footer {
@@ -292,6 +289,12 @@ p {
     justify-content: center;
 
 
+    // Variables
+    $var1: 60px;
+    $var2: 30px;
+    $var3: 20px;
+
+
     form {
 
         width: 100%;
@@ -306,22 +309,21 @@ p {
 
     }
 
-        .btnForm {
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 20px;
-            font-family: $font2;
-            text-align: center;
-            color: $color5;
-            padding: 15px;
-            background-color: $color1;
-            border-color: $color1;
-            border-width: 3px;
-            width: 7rem;
-            height: 4rem;
-            border-style: solid;
-            border-radius: 7px;
-        }
-
+    .btnForm {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: $font2;
+        text-align: center;
+        color: $color5;
+        padding: 15px;
+        background-color: $color1;
+        border-color: $color1;
+        border-width: 3px;
+        width: 7rem;
+        height: 4rem;
+        border-style: solid;
+        border-radius: 7px;
     }
 
+}
