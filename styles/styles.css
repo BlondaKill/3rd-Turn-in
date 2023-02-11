@@ -167,6 +167,8 @@ main a {
   text-align: center;
 }
 
+/* Mi constante */
+/* $color2 == black */
 footer {
   text-align: center;
   font-size: 20px;
@@ -175,16 +177,19 @@ footer {
   font-family: "Permanent Marker", cursive;
   padding: 20px;
 }
-footer i {
+
+i {
   font-size: 30px;
   letter-spacing: 20px;
   color: greenyellow;
   text-align: center;
 }
-footer i:hover {
+
+i:hover {
   color: red;
 }
-footer p {
+
+p {
   margin-bottom: 15px;
 }
 
