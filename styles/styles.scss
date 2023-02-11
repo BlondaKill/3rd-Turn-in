@@ -2,21 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
 
+
+// Colors
+
+
 $color1: red;
 $color2: black;
 $color3: whitesmoke;
 $color4: #333;
 $color5: greenyellow;
 
+$color6:
+red,
+black,
+purple,
+orange,
+greenyellow;
 
-$font1: 'Rubik Vinyl',
-cursive;
-$font2: 'Permanent Marker',
-cursive;
-$font3: Verdana,
-Geneva,
-Tahoma,
-sans-serif;
+
+// Fonts
+
+$font1: 'Rubik Vinyl', cursive;
+$font2: 'Permanent Marker', cursive;
+$font3: Verdana, Geneva, Tahoma, sans-serif;
 
 
 
@@ -153,13 +161,13 @@ main a {
         border-radius: 18px;
         transition: all 0.25s;
 
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 320px) {
             .picCont {
                 grid-template-columns: 1fr 1fr;
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 576px) {
             .picCont {
                 grid-template-columns: 100%;
             }
@@ -170,8 +178,8 @@ main a {
             background-color: $color3;
 
             .imgSneakers {
-                width: 23rem;
-                height: 23rem;
+                width: 100%;
+                height: 25rem;
             }
 
             h3 {
@@ -220,8 +228,12 @@ main a {
     }
 }
 
+/* Mi constante */
+
+/* $color2 == black */
+
 footer {
-    @if $color2==black {
+    @if $color2 == black {
         text-align: center;
         font-size: 20px;
         background-color: $color2;
@@ -231,13 +243,14 @@ footer {
 
     }
 
-    @else if $color2==grey {
-        text-align: center;
-        font-size: 20px;
-        background-color: $color2;
-        color: $color5;
-        font-family: $font3;
-        padding: 20px;
+    @else if $color2 == grey {
+        font-size: 50px;
+    }
+
+    @else if $color2 == purple {
+        font-family: $font1;
+        padding: 10px;
+    }  
 
     }
 
@@ -255,7 +268,7 @@ footer {
     p {
         margin-bottom: 15px;
     }
-}
+
 
 /* contact */
 
@@ -282,7 +295,8 @@ footer {
 
     }
 
-    .btnForm {
+    @each $colors in $color6{
+        .btnForm #{$colors}{
         text-decoration: none;
         font-weight: 600;
         font-size: 20px;
@@ -297,5 +311,29 @@ footer {
         height: 4rem;
         border-style: solid;
         border-radius: 7px;
+        }
+
+        }
+
+
+
+
     }
+
+    /*.btnForm {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: $font2;
+        text-align: center;
+        color: $color5;
+        padding: 15px;
+        background-color: $color1;
+        border-color: $color1;
+        border-width: 3px;
+        width: 7rem;
+        height: 4rem;
+        border-style: solid;
+        border-radius: 7px;
+    }*/
 }
