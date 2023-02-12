@@ -115,12 +115,12 @@ main a {
   border-radius: 18px;
   transition: all 0.25s;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
   .mainPages .picCont {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
   .mainPages .picCont {
     grid-template-columns: 100%;
   }
