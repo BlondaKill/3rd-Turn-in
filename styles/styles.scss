@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
 
+@import "_colors";
+@import "_constante";
+@import "_fonts";
+@import "_mixin";
+@import "_operadores";
 
 * {
     padding: 0;
@@ -17,9 +22,6 @@ header {
     font-family: $font1;
     padding: auto;
 }
-
-
-
 
 .navbar {
     font-weight: bold;
@@ -143,7 +145,7 @@ main a {
 
         .imgSneakers {
             @include size(100%, 25rem);
-            
+
         }
 
         h3 {
@@ -301,8 +303,3 @@ p {
 
 }
 
-@import "_colors";
-@import "_constante";
-@import "_fonts";
-@import "_mixin";
-@import "_operadores";
