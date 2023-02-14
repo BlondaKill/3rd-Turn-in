@@ -3,39 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
 
 
-// Colors
-
-
-$color1: red;
-$color2: black;
-$color3: whitesmoke;
-$color4: #333;
-$color5: greenyellow;
-
-
-// Fonts
-
-$font1: 'Rubik Vinyl',
-cursive;
-$font2: 'Permanent Marker',
-cursive;
-$font3: Verdana,
-Geneva,
-Tahoma,
-sans-serif;
-
-// Operadores 
-
-$var1:60px;
-$var2:30px;
-$var3:20px;
-
-
-/* Mi constante */
-// $color2 == black
-
-
-
 * {
     padding: 0;
     margin: 0;
@@ -167,17 +134,6 @@ main a {
         grid-gap: 10px;
         border-radius: 18px;
         transition: all 0.25s;
-
-        @media screen and (max-width: 576px) {
-
-            grid-template-columns: 1fr 1fr;
-        }
-
-
-        @media screen and (max-width: 320px) {
-
-            grid-template-columns: 100%;
-        }
     }
 
 
@@ -186,8 +142,8 @@ main a {
         background-color: $color3;
 
         .imgSneakers {
-            width: 100%;
-            height: 25rem;
+            @include size(100%, 25rem);
+            
         }
 
         h3 {
@@ -342,4 +298,11 @@ p {
             grid-template-columns: 100%;
         }
     }
+
 }
+
+@import "_colors";
+@import "_constante";
+@import "_fonts";
+@import "_mixin";
+@import "_operadores";
