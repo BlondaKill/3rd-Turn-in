@@ -325,5 +325,21 @@ p {
         border-style: solid;
         border-radius: 7px;
     }
+}
 
+@media screen and (max-width: 576px) {
+    .mainPages {
+        .picCont {
+
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mainPages {
+        .picCont {
+            grid-template-columns: 100%;
+        }
+    }
 }
