@@ -43,12 +43,14 @@ header {
     .navbar .nav-link {
         list-style: none;
         font-size: 25px;
+
     }
 
     .navbar .nav-link a {
         text-decoration: none;
         color: $color3;
         margin: 2px;
+
     }
 
 }
@@ -194,10 +196,6 @@ main a {
 }
 
 
-
-/* Mi constante */
-/* $color2 == black */
-
 footer {
     @if $color2==black {
         text-align: center;
@@ -236,8 +234,6 @@ p {
 }
 
 
-/* contact */
-
 .mainContact {
     background-image: url(../img/banner.png);
 }
@@ -245,12 +241,6 @@ p {
 .contForm {
     display: flex;
     justify-content: center;
-
-
-    // Variables
-    $var1: 60px;
-    $var2: 30px;
-    $var3: 20px;
 
 
     form {

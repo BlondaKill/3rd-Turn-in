@@ -160,8 +160,6 @@ main a {
   text-align: center;
 }
 
-/* Mi constante */
-/* $color2 == black */
 footer {
   text-align: center;
   font-size: 20px;
@@ -186,7 +184,6 @@ p {
   margin-bottom: 15px;
 }
 
-/* contact */
 .mainContact {
   background-image: url(../img/banner.png);
 }
