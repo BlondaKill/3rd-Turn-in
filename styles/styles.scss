@@ -26,6 +26,7 @@ header {
 .navbar {
     font-weight: bold;
     color: $color1;
+    
 
     .navbar-brand {
         color: $color1 !important;
@@ -38,6 +39,7 @@ header {
 
     .nav-item:hover {
         background-color: $color1;
+        
     }
 
     .navbar .nav-link {
