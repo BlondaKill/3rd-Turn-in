@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Carter+One&family=Covered+By+Your+Grace&family=Fredoka+One&family=Lilita+One&family=Luckiest+Guy&family=Permanent+Marker&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -20,25 +19,20 @@ header {
   font-weight: bold;
   color: red;
 }
-
 .navbar .navbar-brand {
   color: red !important;
   font-size: 60px;
 }
-
 .navbar .navbar-toggler {
   background-color: red;
 }
-
 .navbar .nav-item:hover {
   background-color: red;
 }
-
 .navbar .navbar .nav-link {
   list-style: none;
   font-size: 25px;
 }
-
 .navbar .navbar .nav-link a {
   text-decoration: none;
   color: whitesmoke;
@@ -78,12 +72,10 @@ main a {
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
-
 @keyframes aparecer {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -115,7 +107,6 @@ main a {
   background-size: cover;
   background-position: center center;
 }
-
 .mainPages .picCont {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -123,31 +114,26 @@ main a {
   border-radius: 18px;
   transition: all 0.25s;
 }
-
 .mainPages .card {
   grid-gap: 10px;
   background-color: whitesmoke;
 }
-
 .mainPages .card .imgSneakers {
   width: 100%;
   height: 25rem;
 }
-
 .mainPages .card h3 {
   font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
 }
-
 .mainPages .card p {
   font-size: 20px;
   font-family: "Permanent Marker", cursive;
   color: black;
   text-align: center;
 }
-
 .mainPages .card:hover {
   transform: scale(1.1);
   box-shadow: 0 12px 16px red;
@@ -209,7 +195,6 @@ p {
   display: flex;
   justify-content: center;
 }
-
 .contForm form {
   width: 100%;
   height: 100%;
@@ -221,7 +206,6 @@ p {
   color: red;
   padding: 50px;
 }
-
 .contForm .btnForm {
   text-decoration: none;
   font-weight: 600;
@@ -244,11 +228,8 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 }
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .mainPages .picCont {
     grid-template-columns: 100%;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
