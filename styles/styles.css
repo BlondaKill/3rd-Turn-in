@@ -112,7 +112,7 @@ main a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   border-radius: 18px;
-  transition: all 0.25s;
+  transition: all 0.5s;
 }
 .mainPages .card {
   grid-gap: 10px;
@@ -127,6 +127,8 @@ main a {
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
 }
 .mainPages .card p {
   font-size: 20px;

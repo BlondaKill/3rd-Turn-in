@@ -139,7 +139,7 @@ main a {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
         border-radius: 18px;
-        transition: all 0.25s;
+        transition: all 0.5s;
     }
 
 
@@ -157,6 +157,8 @@ main a {
             font-family: $font2;
             color: $color1;
             text-align: center;
+            object-fit: contain !important;
+
         }
 
         p {
