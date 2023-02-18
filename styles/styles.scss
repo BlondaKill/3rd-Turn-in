@@ -156,7 +156,7 @@ main a {
             font-family: $font2;
             color: $color1;
             text-align: center;
-            object-fit: contain;
+            object-fit: contain !important; 
 
         }
 
@@ -234,6 +234,19 @@ i:hover {
 
 p {
     margin-bottom: 15px;
+}
+
+.subir {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    color: black;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    font-style: 30px;
+    text-align: center;
+    line-height: 30px;
 }
 
 

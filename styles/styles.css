@@ -127,8 +127,8 @@ main a {
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
 }
 .mainPages .card p {
   font-size: 20px;
@@ -184,6 +184,19 @@ i:hover {
 
 p {
   margin-bottom: 15px;
+}
+
+.subir {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  color: black;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  font-style: 30px;
+  text-align: center;
+  line-height: 30px;
 }
 
 .mainContact {
