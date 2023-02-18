@@ -127,7 +127,8 @@ main a {
   font-family: "Permanent Marker", cursive;
   color: red;
   text-align: center;
-  object-fit: contain !important;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .mainPages .card p {
   font-size: 20px;
