@@ -96,9 +96,8 @@ main a {
   border-radius: 7px;
 }
 
-.call a a:hover {
+.call a:hover {
   background-color: red;
-  border: 2px solid;
 }
 
 .mainPages {
@@ -190,7 +189,7 @@ p {
   height: 30px;
   width: 30px;
   background-color: red;
-  color: black;
+  color: greenyellow;
   position: fixed;
   right: 30px;
   bottom: 40px;

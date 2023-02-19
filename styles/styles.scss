@@ -121,9 +121,9 @@ main a {
 }
 
 
-.call a a:hover {
+.call a:hover {
     background-color: $color1;
-    border: 2px solid;
+    
 }
 
 
@@ -239,14 +239,15 @@ p {
 .subir {
     height: 30px;
     width: 30px;
-    background-color: red;
-    color: black;
+    background-color: $color1;
+    color: $color5;
     position: fixed;
     right: 30px;
     bottom: 40px;
     font-style: 30px;
     text-align: center;
     line-height: 30px;
+    
 }
 
 
