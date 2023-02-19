@@ -41,7 +41,7 @@ header {
 
 .mainHome {
   background-image: url(../img/zapawall.jpg);
-  background-color: #333;
+  background-color: black;
   background-size: cover;
   height: 40rem;
   background-position: center center;

@@ -26,6 +26,7 @@ header {
 .navbar {
     font-weight: bold;
     color: $color1;
+    
 
 
     .navbar-brand {
@@ -54,13 +55,13 @@ header {
         margin: 2px;
 
     }
-    
+
 }
 
 .mainHome {
 
     background-image: url(../img/zapawall.jpg);
-    background-color: $color4;
+    background-color: $color2;
     background-size: cover;
     height: 40rem;
     background-position: center center;
@@ -123,7 +124,7 @@ main a {
 
 .call a:hover {
     background-color: $color1;
-    
+
 }
 
 
@@ -156,7 +157,7 @@ main a {
             font-family: $font2;
             color: $color1;
             text-align: center;
-            object-fit: contain !important; 
+            object-fit: contain !important;
 
         }
 
@@ -226,6 +227,7 @@ i {
     letter-spacing: 20px;
     color: $color5;
     text-align: center;
+
 }
 
 
@@ -245,7 +247,7 @@ p {
     font-style: 30px;
     text-align: center;
     line-height: 30px;
-    
+
 }
 
 
