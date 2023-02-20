@@ -237,16 +237,16 @@ p {
 }
 
 .subir {
-    height: 30px;
-    width: 30px;
-    background-color: $color1;
-    color: $color5;
+    // height: 30px;
+    // width: 30px;
+    color: $color1;
+    // background-color: $color1;
     position: fixed;
     right: 30px;
     bottom: 40px;
     font-style: 30px;
     text-align: center;
-    line-height: 30px;
+    line-height: 10px;
 
 }
 
