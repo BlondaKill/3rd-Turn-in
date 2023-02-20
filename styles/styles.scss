@@ -26,7 +26,7 @@ header {
 .navbar {
     font-weight: bold;
     color: $color1;
-    
+
 
 
     .navbar-brand {
@@ -150,6 +150,7 @@ main a {
         .imgSneakers {
             @include size(100%, 25rem);
 
+
         }
 
         h3 {
@@ -237,16 +238,18 @@ p {
 }
 
 .subir {
-    // height: 30px;
-    // width: 30px;
-    color: $color1;
-    // background-color: $color1;
+    height: 30px;
+    width: 30px;
     position: fixed;
     right: 30px;
     bottom: 40px;
     font-style: 30px;
     text-align: center;
     line-height: 10px;
+
+    .fa-circle-arrow-up {
+        color: $color1;
+    }
 
 }
 
@@ -289,6 +292,7 @@ p {
         height: 4rem;
         border-style: solid;
         border-radius: 7px;
+        margin-bottom: 4px;
     }
 }
 
@@ -299,6 +303,10 @@ p {
             grid-template-columns: 1fr 1fr;
         }
     }
+
+    .contForm textarea {
+        width: 20rem;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -308,4 +316,13 @@ p {
         }
     }
 
+    .contForm {
+        .iptForm {
+            width: 20rem;
+        }
+
+        textarea {
+            width: 20rem;
+        }
+    }
 }
